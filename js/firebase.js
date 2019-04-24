@@ -26,6 +26,8 @@ function submitForm(e) {
     var subject = getInputVal('subject1');
     var message = getInputVal('message1');
 
+    console.log(name);
+
     saveMessage(name, email, subject, message);
 
     
